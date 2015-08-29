@@ -1,0 +1,423 @@
+  /*---------- index.html -----------*/
+.w_index{
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    z-index: -900;
+}
+.index_page{
+    width: 1302px;
+    /*height: 900px;*/
+    position: relative;
+    margin-top: 50px;
+    /*overflow: hidden;*/
+    cursor: pointer;
+    text-align: center;
+}
+.index_lady{
+    width: 916px;
+    height: 710px;
+    z-index: -100;
+    overflow: hidden;
+}
+.index_lady:hover img{
+    transform: scale(1.04);
+    transition: transform 1s ease-out 0.2s;
+}
+.index_right{
+    position: absolute;
+    margin-left: 920px;
+    margin-top: -710px;
+}
+.index_right_bottom{
+    position: absolute;
+    margin-left: 221px;
+    margin-top: -472px;
+}
+
+.index_bags{
+    width: 440px;
+    height: 230px;
+    overflow: hidden;
+    z-index: -100;
+}
+.index_bags:hover img{
+    transform: scale(1.05);
+    transition: transform 1s ease-out 0.2s;
+}
+
+.index_man{
+    margin-left: 0;
+    margin-top: 6px;
+    width: 217px;
+    height: 474px;
+    overflow: hidden;
+    z-index: -100;
+}
+.index_man:hover img{
+    transform: scale(1.05);
+    transition: transform 1s ease-out 0.2s;
+}
+
+.index_sun{
+    width: 215px;
+    height: 206px;
+    overflow: hidden;
+    z-index: -100;
+}
+.index_sun:hover img{
+    transform: scale(1.06);
+    transition: transform 1s ease-out 0.2s;
+}
+.index_fur{
+    width: 215px;
+    height: 264px;
+    margin-top: 3px;
+    overflow: hidden;
+    z-index: -100;
+}
+.index_fur:hover img{
+    transform: scale(1.06);
+    transition: transform 1s ease-out 0.2s;
+}
+.index_c1{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 350px;
+    color: #ffffff;
+}
+.index_c1 a{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-left:60px;
+}
+.index_c2 a{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: -60px;
+    z-index: 5;
+    color: #ffffff;
+    text-decoration: none;
+}
+.index_c3 a{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: -65px;
+    z-index: 5;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.index_c4 a{
+    position: absolute;
+    margin-top: -135px;
+    margin-left: -25px;
+    z-index: 5;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.index_c5 a{
+    position: absolute;
+    margin-top: -155px;
+    margin-left: -40px;
+    z-index: 5;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+/*--------------womensunglass.html -----------------*/
+.womenglass_bg{
+    background: url("../images/wsglass_bg.jpg") fixed;
+}
+.wsglass_page{
+    position: relative;
+    margin-left: 232px;
+    margin-top: 90px;
+}
+.wsglass_title{
+    width: 918px;
+    height: 104px;
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+}
+.wsglass_galassia{
+    background-color: #f4efeb;
+    opacity: 0.8;
+    position: absolute;
+    margin-top: -45px;
+    width: 610px;
+    height: 470px;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5 ;
+}
+.wsglass_galassia1{
+    position: absolute;
+    margin-left: 611px;
+    margin-top: -45px;
+    background-color: #f4efeb;
+}
+.wsgalss_5{
+    width: 305px;
+    height: 234px;
+    border-bottom: 1px solid #ece5c5;
+    /*z-index: 5;*/
+}
+.wsglass_6{
+    width: 305px;
+    height: 234px;
+    border-bottom: 1px solid #ece5c5;
+    /*z-index: 5;*/
+}
+.wsglass_30{
+    position: absolute;
+    margin-left: 0 ;
+    margin-top: 426px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.wsglass_32{
+    position: absolute;
+    margin-left: 306px;
+    margin-top: 427px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+
+.wsglass_page1{
+    position: absolute;
+    margin-left: 232px;
+    margin-top: 680px;
+}
+.wsglass_33{
+    position: absolute;
+    margin-left: 612px;
+    margin-top: 427px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.wsglass_page2{
+    position: absolute;
+    margin-left: 232px;
+    margin-top: 1530px;
+}
+.wsglass_page3{
+    position: absolute;
+    margin-left: 232px;
+    margin-top: 2380px;
+}
+
+/*-------------- 围巾及其他  womentextiles.html -----------------*/
+.w_extile_bg{
+    background: url("../images/wsglass_bg.jpg") fixed;
+    z-index: -900;
+}
+.w_extile_page{
+    position: relative;
+    margin-left: 232px;
+    margin-top: 90px;
+}
+.w_extile_title{
+    width: 918px;
+    height: 104px;
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+}
+
+.w_extile_column_left{
+    background-color: #f4efeb;
+    opacity: 0.8;
+    position: absolute;
+    margin-top: -45px;
+    width: 610px;
+    height: 470px;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5 ;
+}
+.w_extile_column_right{
+    position: absolute;
+    margin-left: 611px;
+    margin-top: -45px;
+    background-color: #f4efeb;
+}
+.w_extile2{
+    width: 305px;
+    height: 235px;
+    border-bottom: 1px solid #ece5c5;
+    /*z-index: 5;*/
+}
+.w_extile3{
+    width: 305px;
+    height: 235px;
+    border-bottom: 1px solid #ece5c5;
+    /*z-index: 5;*/
+}
+.w_extile4{
+    position: absolute;
+    margin-left: 0 ;
+    margin-top: 427px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile5{
+    position: absolute;
+    margin-left: 306px ;
+    margin-top: 427px;
+    width: 304px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile6{
+    position: absolute;
+    margin-left: 612px ;
+    margin-top: 427px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile7{
+    position: absolute;
+    margin-left: 0 ;
+    margin-top: 663px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile8{
+    position: absolute;
+    margin-left: 0 ;
+    margin-top: 899px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile11{
+    position: absolute;
+    margin-left: 306px ;
+    margin-top: 663px;
+    width: 610px;
+    height: 470px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile9{
+    position: absolute;
+    margin-left: 0 ;
+    margin-top: 1135px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile10{
+    position: absolute;
+    margin-left: 306px ;
+    margin-top: 1135px;
+    width: 304px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile12{
+    position: absolute;
+    margin-left: 612px;
+    margin-top: 1136px;
+    width: 305px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile111{
+    position: absolute;
+    margin-left: 0;
+    margin-top: 1371px;
+    width: 610px;
+    height: 470px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile13{
+    position: absolute;
+    margin-left: 612px;
+    margin-top: 1372px;
+    width: 305px;
+    height: 234px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+.w_extile14{
+    position: absolute;
+    margin-left: 612px;
+    margin-top: 1607px;
+    width: 304px;
+    height: 235px;
+    background-color: #f4efeb;
+    border-bottom: 1px solid #ece5c5;
+    border-right: 1px solid #ece5c5;
+}
+
+  /*-------------  womensunglass1.html  ---------------*/
+  .womensunglass1_36{
+      position: absolute;
+      margin-left: 611px;
+      margin-top: 428px;
+      width: 304px;
+      height: 234px;
+      background-color: #f4efeb;
+      border-bottom: 1px solid #ece5c5;
+      border-right: 1px solid #ece5c5;
+  }
+  .womensunglass1_37{
+      position: absolute;
+      margin-left: 0 ;
+      margin-top: 662px;
+      width: 305px;
+      height: 235px;
+      background-color: #f4efeb;
+      border-bottom: 1px solid #ece5c5;
+      border-right: 1px solid #ece5c5;
+  }
+  .womensunglass1_14{
+      position: absolute;
+      margin-left: 305px ;
+      margin-top: 663px;
+      width: 609px;
+      height: 470px;
+      background-color: #f4efeb;
+      border-bottom: 1px solid #ece5c5;
+      border-right: 1px solid #ece5c5;
+  }

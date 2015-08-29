@@ -1,0 +1,247 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.r_container{
+    width: 100%;
+    height: 1024px;
+    padding-top:50px;
+}
+.r_left{
+    width: 67%;
+    height: 100%;
+    background-color: #ffffff;
+    float: left;
+    padding: 37px 2.4%;
+}
+.r_right{
+    width: 28%;
+    height: 1098px;
+    background-color: #F0F0F0;
+    float: left;
+}
+.r_hr{
+    width: 100%;
+    margin-top: 18px;
+    color: #C8A985;
+    height: 0px;
+    clear: both;
+}
+.title{
+    font-size: 28px;
+    color: #202120;
+    line-height: 30px;
+    font-family: "宋体","微软雅黑",Arial, sans-serif;
+    font-weight: bolder;
+}
+.title02{
+    float: right;
+    width: 130px;
+    height: 18px;
+padding: 8px 18px;
+    background-color: #C8A985;
+}
+.title02 a{
+    text-decoration: none;
+    color: #ffffff;
+    width: 166px;
+    height: 34px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "宋体";
+}
+.bitian{
+    color:#C8A985 ;
+    float: right;
+    line-height: 28px;
+    margin-top: -45px;
+}
+.create{
+    margin-top: 51px;
+    color:#5e5e60
+}
+.per_infor{
+    font-size: 24px;
+    color: #202120;
+    line-height: 22px;
+    font-family: "宋体","微软雅黑",Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 24px;
+}
+.r_inp01{
+    width: 740px;
+}
+.r_sel{
+    width: 513px;
+    height: 41px;
+    border: 1px solid #DBD9CF;
+    padding: 9px 0 9px 12px;
+    font-size: 21px;
+    line-height: 23px;
+    color: darkolivegreen;
+}
+.r_name{
+    float: left;
+    font-size: 18px;
+}
+.r_sub_inp{
+    float: right;
+}
+.r_inp_top{
+    margin-top: 20px;
+    clear: both;
+    overflow: hidden;
+}
+#cfirst,#clast,#efirst,#elast,#r_email,#r_email_confirm,#r_pwd,#r_pwd_confirm{
+    width: 511px;
+    height: 35px;
+    border: 1px solid #DBD9CF;
+    font-size: 21px;
+    line-height: 21px;
+    color: darkolivegreen;
+}
+.treaty_wd{
+    font-size: 18px;
+}
+#treaty{
+    width: 15px;
+    height: 15px;
+    border: 1px solid darkolivegreen;
+}
+#btn_submit{
+    background: #c8a985;
+    color: #ffffff;
+    font-family: 'LouisVuitton-N',sans-serif;
+    font-size: 16px;
+    /*border: 0;*/
+    padding: 9px 20px;
+    vertical-align: middle;
+    /*text-decoration: none;*/
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    -webkit-appearance: none;
+    -webkit-opacity: 1;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    cursor: pointer;
+    background-position: 10px 50%;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+#button-orange:hover {
+     color: #c5bdb5;
+ }
+.r_word{
+    font-size: 13px;
+    color:#5e5e60;
+    text-align: justify;
+    line-height: 20px;
+}
+.r_r_inner{
+    margin:40px 10% ;
+    width: 78%;
+    height: 300px;
+}
+.rr_fwzx{
+    font-size: 16px;
+    color:#c8a985 ;
+    font-weight: bolder;
+    font-family:  "微软雅黑",Arial, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.r_about{
+    width: 262px;
+    background-color: #EBE8E3;
+    margin-top: 30px;
+    padding:5px 13px 4px;
+}
+.r_about>p{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.r_about ul{
+    /*margin-left: 3px;*/
+    list-style: none;
+margin-top: 15px;
+}
+.r_about ul li{
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #5e5e60;
+    font-size: 12px;
+}
+.r_emailus{
+    font-size: 14px;
+    font-family: "微软雅黑",Arial, sans-serif;
+    /*font-weight: bolder;*/
+    margin-top: 20px;
+    margin-left: 4px;
+    border-bottom: 1px solid #BABABA;
+    line-height: 30px;
+}
+.r_footer_up{
+    /*clear: both;*/
+    /*position: relative;*/
+    /*top: -20px;*/
+    /*margin-top: -40px;*/
+    width: 100px;
+    height: 33px;
+    background: red;
+}
+
+
+                        /*  women   bags    start*/
+ h2 {
+    margin: 0;
+    padding: 40px 0 28px;
+    text-align: center;
+    font-size: 36px;
+     clear: both;
+}
+.wbs_container{
+    max-width: 918px;
+    margin-left: 19.2%;
+    margin-top: 50px;
+}
+.body_bg{
+background: url("../images/womenbagsbg.jpg") fixed;
+}
+.relative{
+    position: relative;
+    top: 0;
+    height: 0;
+}
+.wb_big{
+    width: 612px;
+    height: 472px;
+    background: rgba(255,255,255,0.15) url("../images/border.png");
+    background-size:contain;
+}
+.wb_minfa{
+    float: left;
+    background: rgba(255,255,255,0.15) url("../images/border.png");
+    background-size:contain;
+    width: 306px;
+    height: 236px;
+}
+.wbs_container img{
+    /*background: rgba(255,255,255,0.3) url("../images/border.png");*/
+    width: 100%;
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}

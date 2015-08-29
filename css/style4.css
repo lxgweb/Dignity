@@ -1,0 +1,338 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+/*女士时装秀*/
+.womenfashionbody{
+    background: url("../images/fashionshow_women15fw_bg.jpg");
+    background-attachment: fixed;
+}
+.womenfashion_showul{
+    margin-top: 95px;
+}
+.womenfashion_showul li{
+    list-style: none;
+    list-style-position: inside;
+    font-size: 12px;
+    height: 17px;
+    line-height: 17px;
+    color: #888888;
+    float: left;
+    margin-right: 20px;
+}
+.womenfashion_showd1{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 135px;
+}
+.womenfashion_showul li a:link{
+    color: #888888;
+    text-decoration: none;
+}
+.womenfashion_showul li a:hover{
+    color: #bababa;
+    text-decoration: none;
+}
+.womenfashion_showul .li1{
+   float: right;
+}
+h1{
+  text-align: center;
+    color: #B4A063;
+    padding-top: 65px;
+}
+.womenfashion_showvedio{
+    text-align: center;
+    padding-top: 70px;
+}
+.modelstyle{
+    color: #B4A063;
+    font:bold  30px "微软雅黑";
+    float: right;
+    margin-right: 10%;
+    margin-top: 125px;
+    margin-bottom: 35px;
+
+}
+.clear{
+    clear: both;
+}
+.modelstyleshow{
+    font-size: 0px;
+}
+.modelstyleshow_left{
+    width: 400px;
+    height: 600px;
+  display: inline-block;
+    margin-left: 10%;
+}
+.modelstyleshow_right{
+    width: 450px;
+    height: 600px;
+    display: inline-block;
+list-style: none;
+    list-style-position: inside;
+    font-size: 0px;
+}
+.modelstyleshow_right li{
+  display: inline-block;
+    position: relative;
+}
+.menban{
+    width: 100px;
+    height: 150px;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.aa{
+    width: 179px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid darkgray;
+    margin-top: 5px;
+    position: fixed;
+    bottom: 100px;
+    left: 10px;
+}
+.aa:hover{
+    border: 1px solid #ffd204;
+}
+.bb{
+    bottom: 60px;
+}
+.cc{
+    bottom: 20px;
+}
+.manfashionbody{
+    background: url("../images/men15fw_bg_3.JPG");
+    background-attachment: fixed;
+}
+
+/*女士时装秀结束*/
+/*墨镜系列*/
+.sunglassseries_ul01{
+    list-style: none inside none;
+    width: 100%;
+    overflow: hidden;
+}
+.sunglassseries_ul01 li{
+    position: relative;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.sunglassseries_d1{
+    width: 100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0%;
+    top:0%;
+    opacity: 0;
+}
+.sunglassseries_d2{
+    margin: 0 auto;
+  color: #ffffff;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+.sunglassseries_d3{
+    text-align: center;
+    color: #ffd400;
+  height: 47px;
+    line-height: 47px;
+    border: 1px solid #ffd400;
+    margin-top: 20px;
+    width: 130px;
+    margin-left: 32%;
+}
+.sunglassseries_d3 a:link{
+    color: #ffd400;
+    text-decoration: none;
+}
+.sunglassseries_d3 a:visited{
+    color: #ffd400;
+    text-decoration: none;
+}
+.sunglassseries_d3 a:hover{
+    color: #ffd400;
+    text-decoration: none;
+}
+.sunglassseries_d3 a:active{
+    color: #ffd400;
+    text-decoration: none;
+}
+.sunglassseries_d4{
+    position: relative;
+    width: 100%;
+}
+.sunglassseries_d4 img{
+    width: 100%;
+}
+.sunglassseries_d5{
+    position: absolute;
+    left:20%;
+    top:20%
+}
+h1{
+    color: #ffffff;
+}
+.sunglassseries_d6{
+    width: 650px;
+    font-size: 20px;
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+    word-break: break-all;
+}
+.sunglassseries_ul02{
+    width: 100%;
+    height: 1035px;
+    list-style: none inside none;
+    overflow: hidden;
+}
+.sunglassseries_ul02 li{
+    width: 50%;
+   position: relative;
+    float: right;
+    overflow: hidden;
+}
+.sunglassseries_ul02 li img{
+    width: 100%;
+}
+.sunglassseries_d9{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0%;
+    opacity: 0;
+    top:0%;
+}
+.sunglassseries_d9 h2{
+  /*margin-top: -10%;*/
+}
+.sunglassseries_ul03{
+    width: 100%;
+    list-style: none inside none;
+    overflow: hidden;
+}
+.sunglassseries_ul03 li{
+    width: 50%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.sunglassseries_ul03 li img{
+    width: 100%;
+}
+
+/*墨镜系列结束*/
+/*墨镜*/
+.sunglass_d1{
+    position: relative;
+    width: 70%;
+  /*height: 100%;*/
+    float: left;
+}
+.sunglass_ul01{
+    position: absolute;
+    list-style: none inside none;
+    top: 50%;
+    left: 5px;
+}
+.sunglass_ul01 li{
+padding: 5px 20px;
+    color: #ffd400;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    margin-top: 10px;
+}
+.sunglass_ul01 li:hover{
+    color:rgba(0,0,0,0.8) ;
+    background:#ffd400;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+.sunglass_d2{
+    position: relative;
+    width: 30%;
+    /*height: 100%;*/
+    float: right;
+    text-align: center;
+
+}
+.sunglass_d2 h2{
+   margin-top: 40%;
+    font-size: 40px;
+}
+.sunglass_d2 img{
+    width: 600px;
+
+ left: -240px;
+    top:400px;
+    position: absolute;
+}
+.sunglass_d3 a{
+    width: 88px;
+    height: 32px;
+    background:#ffd400;
+    text-align: center;
+    line-height: 32px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.sunglass_d3 a:link{
+    color: black;
+    text-decoration: none;
+}
+.sunglass_d3 a:visited{
+    color: black;
+    text-decoration: none;
+}
+.sunglass_d3 a:hover{
+    color: black;
+    text-decoration: none;
+}
+.suanglassbody{
+    background: url("../images/__utm.gif") repeat;
+}
+/*墨镜结束*/
+/*品牌故事*/
+.storybody{
+    background: url("../images/bg.jpg");
+    background-size: 100% 100%;
+}
+.storyvideo{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+.storyvideo video{
+    width: 100%;
+    height: 100%;
+}
+.storyfont1,.storyfont2{
+    width: 100%;
+    font:normal 30px "微软雅黑";
+    color: goldenrod;
+    margin-top: 40px;
+    text-align: center;
+}
+.storyfont1{
+    letter-spacing: 10px;
+    margin-top: 70px;
+}
+.storyimg{
+    text-align: center;
+    margin-top: 50px;
+}
+/*品牌故事结束*/
