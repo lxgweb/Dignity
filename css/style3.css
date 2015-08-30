@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-size: 12px;
+    font-family: "微软雅黑";
 }
 a{
     text-decoration: none;
@@ -120,15 +121,9 @@ ul{
 .lady_wrap{
     width: 828px;
     height: 2455px;
-    /*border: 1px solid black;*/
-    /*position: relative;*/
-    /*position: absolute;*/
-    /*left: 250px;*/
-    /*top: 130px;*/
     position: relative;
     margin-left: 250px;
     margin-top: 130px;
-
 }
 
 /*蒙版*/
@@ -231,7 +226,7 @@ ul{
     text-align: center;
     position: absolute;
     top: 309px;
-    left: 0px;
+    left: 0;
 }
 .lady_women_fashionshow_img{
     width: 549px;
@@ -282,7 +277,7 @@ ul{
     text-align: center;
     position: absolute;
     top: 846px;
-    left: 0px;
+    left: 0;
 }
 .lady_women_jours_img{
     width: 275px;
@@ -437,7 +432,7 @@ ul{
     text-align: center;
     position: absolute;
     top: 1879px;
-    left: 0px;
+    left: 0;
 }
 .lady_women_acciesories_img{
     width: 548px;
@@ -568,7 +563,7 @@ ul{
     overflow: hidden;
     position: absolute;
     text-align: center;
-    left: 0px;
+    left: 0;
     top: 0;
 }
 
@@ -578,7 +573,7 @@ ul{
     overflow: hidden;
     position: absolute;
     text-align: center;
-    left: 0px;
+    left: 0;
     top: 290px;
 }
 
@@ -683,7 +678,7 @@ ul{
     margin-top: 1px;
     position:absolute;
     top: 212px;
-    left: 0px;
+    left: 0;
     background: rgba(255, 255, 255, 0.21);
 }
 
@@ -695,5 +690,99 @@ ul{
     left: 276px;
     background: rgba(255, 255, 255, 0.21);
 }
-
 /*时尚配饰 end*/
+
+
+/*男士商品展示*/
+.manprodectshow_wrap{
+    width: 890px;
+    height: 602px;
+    margin-top: 80px;
+    margin-left: 246px;
+    position: relative;
+}
+.manprodectshow_bigimg{
+    width: 610px;
+    height: 470px;
+}
+
+/*男士商品小图片*/
+.manprodectshow_imgul{
+    width: 280px;
+    height: 50px;
+    margin-left: 150px;
+}
+.manprodectshow_imgul li{
+    float: left;
+    width: 60px;
+    height: 46px;
+    border: 2px solid silver;
+    margin-left: 6px;
+    opacity: 0.6;
+}
+.manprodectshow_img{
+     width: 100%;
+    height: 100%;
+}
+
+/*男士商品小图片 end*/
+
+.manprodect_name{
+    font-size: 25px;
+    font-family:helvetica;
+    position: absolute;
+    width: 60px;
+    /*border: 1px solid black;*/
+    left: 590px;
+    top: 80px;
+}
+
+.manprodect_price_unit{
+    font-size: 28px;
+    color: #ff2f57;
+    position: absolute;
+    left: 590px;
+    top: 150px;
+}
+.manprodect_price{
+    font-size: 28px;
+    color: #ff2f57;
+    position: absolute;
+    left: 616px;
+    top: 150px;
+}
+.manprodect_information_title{
+    position: absolute;
+    left: 590px;
+    top: 200px;
+}
+.manprodect_information{
+    position: absolute;
+    width: 230px;
+    left: 590px;
+    top: 220px;
+    line-height: 20px;
+    color: #6e6e6e;
+    font-family: "微软雅黑";
+}
+
+.add_shopping{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 590px;
+    top: 400px;
+    border: 1px solid #886308;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    background: #c5900c;
+}
+
+.add_shopping:hover{
+    background: #f0b00d;
+}
+/*男士商品展示 end*/
+
